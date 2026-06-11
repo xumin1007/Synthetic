@@ -1,0 +1,23 @@
+# macOS AppleDouble / resource-fork metadata (created on non-HFS volumes)
+._*
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Experiment outputs (keep the folder, ignore generated artifacts)
+results/**
+!results/.gitkeep

@@ -1,0 +1,34 @@
+# macOS
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage / type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Experiment outputs (keep placeholder files)
+**/results/**
+!**/results/.gitkeep

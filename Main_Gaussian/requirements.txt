@@ -1,0 +1,27 @@
+# Python >= 3.10 (tested on 3.12.2)
+#
+# Install:  pip install -r requirements.txt
+#
+# NOTE on solvers/licenses:
+#   - MOSEK (used by cvxpy in cvxMLEpnorm.py / cvxLasso_linear.py) and Gurobi
+#     (used by PyEPO in spo_plus.py) are commercial solvers and require valid
+#     licenses. Free academic licenses are available from their vendors.
+
+# --- core numerics ---
+numpy>=1.26,<2.0
+scipy>=1.13
+
+# --- deep learning (SPO+ network + tensor ops) ---
+torch>=2.2
+
+# --- convex optimization (MOSEK / Lasso) ---
+cvxpy>=1.5
+Mosek>=10.2
+
+# --- SPO+ end-to-end predict-then-optimize ---
+pyepo>=1.1.1
+gurobipy>=11.0
+
+# --- plotting & utilities ---
+matplotlib>=3.8
+tqdm>=4.66

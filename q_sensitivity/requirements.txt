@@ -1,0 +1,12 @@
+# Core runtime dependencies for the q-sensitivity benchmark.
+# Tested with Python 3.12 (the version floors below match that environment).
+numpy>=1.26
+scipy>=1.13
+cvxpy>=1.5
+tqdm>=4.66
+matplotlib>=3.9
+
+# Optional: MOSEK is the preferred convex solver for `cvxMLEpnorm` and requires a
+# valid license (https://www.mosek.com/). When MOSEK is unavailable, the solver
+# automatically falls back to CLARABEL / SCS, both bundled with cvxpy.
+# mosek>=11.0
