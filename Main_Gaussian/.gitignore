@@ -18,6 +18,3 @@ env/
 .vscode/
 .idea/
 
-# Experiment outputs (keep the folder, ignore generated artifacts)
-results/**
-!results/.gitkeep

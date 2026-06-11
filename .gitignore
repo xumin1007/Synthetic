@@ -29,6 +29,3 @@ htmlcov/
 .idea/
 *.swp
 
-# Experiment outputs (keep placeholder files)
-**/results/**
-!**/results/.gitkeep
